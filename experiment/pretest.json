@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following best describes the divide and conquer technique?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Solving a problem by trying all possible solutions",
+        "b": "Dividing a problem into smaller sub-problems, solving them, and combining the results",
+        "c": "Solving a problem iteratively using loops",
+        "d": "Sorting elements by comparing adjacent values"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This describes brute-force techniques, not divide and conquer.",
+        "b": "Divide and conquer works by breaking a problem into smaller parts, solving them recursively, and combining results.",
+        "c": "Iterative approaches use loops rather than recursion.",
+        "d": "This describes bubble sort, not the divide and conquer paradigm."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the primary reason for using sorting algorithms in computer science?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To reduce memory usage",
+        "b": "To improve data security",
+        "c": "To organize data for efficient searching and processing",
+        "d": "To increase program length"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Sorting may increase memory usage depending on the algorithm.",
+        "b": "Sorting does not directly improve security.",
+        "c": "Sorted data allows faster searching and easier data processing.",
+        "d": "Program length is unrelated to sorting."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the time complexity of Merge Sort in the worst case?",
+      "answers": {
+        "a": "O(n)",
+        "b": "O(n log n)",
+        "c": "O(n²)",
+        "d": "O(log n)"
+      },
+      "explanations": {
+        "a": "Merge Sort always processes all elements at each level.",
+        "b": "Merge Sort divides the array log n times and merges n elements at each level.",
+        "c": "Quadratic time is typical of simple sorts like bubble sort.",
+        "d": "Logarithmic time alone is insufficient to process all elements."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a common application of sorting algorithms?",
+      "answers": {
+        "a": "Encrypting data",
+        "b": "Searching data efficiently",
+        "c": "Compressing files",
+        "d": "Generating random numbers"
+      },
+      "explanations": {
+        "a": "Encryption is related to security, not sorting.",
+        "b": "Sorting helps improve the efficiency of searching algorithms like binary search.",
+        "c": "File compression does not rely on sorting.",
+        "d": "Random number generation does not require sorted data."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Quick Sort, what is the role of the pivot element?",
+      "answers": {
+        "a": "It stores the final sorted array",
+        "b": "It divides the array into two subarrays based on comparison",
+        "c": "It determines the size of the input array",
+        "d": "It is always the smallest element"
+      },
+      "explanations": {
+        "a": "The pivot does not store the sorted array.",
+        "b": "The pivot partitions the array into elements smaller and larger than itself.",
+        "c": "Array size is independent of the pivot.",
+        "d": "The pivot can be any element depending on selection strategy."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

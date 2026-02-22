@@ -2,35 +2,86 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following sorting algorithms always divides the array into two equal halves?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Quick Sort",
+        "b": "Merge Sort",
+        "c": "Bubble Sort",
+        "d": "Insertion Sort"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Quick Sort division depends on pivot selection and may be unbalanced.",
+        "b": "Merge Sort always splits the array into two equal or nearly equal halves.",
+        "c": "Bubble Sort does not divide the array.",
+        "d": "Insertion Sort processes elements sequentially."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In Merge Sort, the array is recursively divided until each subarray contains:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Two elements",
+        "b": "Three elements",
+        "c": "One element",
+        "d": "Zero elements"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Division continues beyond two elements.",
+        "b": "Merge Sort does not stop at three elements.",
+        "c": "A single element is considered already sorted.",
+        "d": "Subarrays never contain zero elements."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Quick Sort using the Median of Three approach, the pivot is selected as the median of which elements?",
+      "answers": {
+        "a": "First, second, and last",
+        "b": "First, middle, and last",
+        "c": "Middle three elements",
+        "d": "Random three elements"
+      },
+      "explanations": {
+        "a": "The second element is not part of the Median-of-Three method.",
+        "b": "Median of first, middle, and last helps avoid worst-case partitions.",
+        "c": "The algorithm does not choose three middle elements.",
+        "d": "Median-of-Three is deterministic, not random."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why does the Median of Three technique improve Quick Sort performance?",
+      "answers": {
+        "a": "It reduces recursion depth",
+        "b": "It avoids selecting extreme pivot values",
+        "c": "It eliminates swapping",
+        "d": "It removes recursion"
+      },
+      "explanations": {
+        "a": "Reduced recursion depth is a result, not the main goal.",
+        "b": "Balanced pivot selection prevents highly unbalanced partitions.",
+        "c": "Swapping is still required in Quick Sort.",
+        "d": "Quick Sort always uses recursion."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the Median-of-Three technique, once arr[left] ≤ arr[center] ≤ arr[right] is ensured, where is the median element usually moved in the array?",
+      "answers": {
+        "a": "At the first index (left)",
+        "b": "At the middle index",
+        "c": "At the second last index (right − 1)",
+        "d": "At the last index (right)"
+      },
+      "explanations": {
+        "a": "The first index is not used as the pivot position.",
+        "b": "The median is not kept in the middle for partitioning.",
+        "c": "The median is moved to right − 1 to act as the pivot during partitioning.",
+        "d": "The last index is reserved as a boundary element."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
