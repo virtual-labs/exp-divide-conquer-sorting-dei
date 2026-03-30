@@ -2,88 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which of the following best describes the divide and conquer technique?",
+      "question": "Which of the following scenarios best represents the advantage of Divide and Conquer algorithms like Merge Sort or Quick Sort?",
       "answers": {
-        "a": "Solving a problem by trying all possible solutions",
-        "b": "Dividing a problem into smaller sub-problems, solving them, and combining the results",
-        "c": "Solving a problem iteratively using loops",
-        "d": "Sorting elements by comparing adjacent values"
+        "a": "When the dataset is very small",
+        "b": "When only one comparison is needed",
+        "c": "When recursion is not allowed",
+        "d": "When problems can be broken into independent smaller parts"
       },
       "explanations": {
-        "a": "This describes brute-force techniques, not divide and conquer.",
-        "b": "Divide and conquer works by breaking a problem into smaller parts, solving them recursively, and combining results.",
-        "c": "Iterative approaches use loops rather than recursion.",
-        "d": "This describes bubble sort, not the divide and conquer paradigm."
+        "a": "Divide and Conquer is not specifically for small datasets.",
+        "b": "Multiple comparisons are involved.",
+        "c": "Recursion is essential for Divide and Conquer.",
+        "d": "Correct — it works best when problems can be divided into smaller independent sub-problems."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
       "question": "What is the primary reason for using sorting algorithms in computer science?",
       "answers": {
         "a": "To reduce memory usage",
-        "b": "To improve data security",
-        "c": "To organize data for efficient searching and processing",
+        "b": "To organize data for efficient searching and processing",
+        "c": "To improve data security",
         "d": "To increase program length"
       },
       "explanations": {
-        "a": "Sorting may increase memory usage depending on the algorithm.",
-        "b": "Sorting does not directly improve security.",
-        "c": "Sorted data allows faster searching and easier data processing.",
-        "d": "Program length is unrelated to sorting."
+        "a": "Sorting does not primarily reduce memory usage.",
+        "b": "Correct — sorted data improves searching and processing efficiency.",
+        "c": "Sorting does not directly improve security.",
+        "d": "Program length is unrelated."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
       "question": "What is the time complexity of Merge Sort in the worst case?",
       "answers": {
         "a": "O(n)",
-        "b": "O(n log n)",
-        "c": "O(n²)",
+        "b": "O(n²)",
+        "c": "O(n log n)",
         "d": "O(log n)"
       },
       "explanations": {
-        "a": "Merge Sort always processes all elements at each level.",
-        "b": "Merge Sort divides the array log n times and merges n elements at each level.",
-        "c": "Quadratic time is typical of simple sorts like bubble sort.",
-        "d": "Logarithmic time alone is insufficient to process all elements."
+        "a": "Linear time is not sufficient.",
+        "b": "Quadratic time applies to simpler sorts.",
+        "c": "Correct — Merge Sort runs in O(n log n).",
+        "d": "Logarithmic time alone is insufficient."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
-    {
-      "question": "Which of the following is a common application of sorting algorithms?",
+    { 
+      "question": "Which of the following best describes the divide and conquer technique?",
       "answers": {
-        "a": "Encrypting data",
-        "b": "Searching data efficiently",
-        "c": "Compressing files",
-        "d": "Generating random numbers"
+        "a": "Dividing a problem into smaller sub-problems, solving them, and combining the results",
+        "b": "Solving a problem iteratively using loops",
+        "c": "Sorting elements by comparing adjacent values",
+        "d": "Solving a problem by trying all possible solutions"
       },
       "explanations": {
-        "a": "Encryption is related to security, not sorting.",
-        "b": "Sorting helps improve the efficiency of searching algorithms like binary search.",
-        "c": "File compression does not rely on sorting.",
-        "d": "Random number generation does not require sorted data."
+        "a": "Correct — divide and conquer splits, solves, and combines results.",
+        "b": "This is an iterative approach.",
+        "c": "This describes bubble sort.",
+        "d": "This is brute force."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
       "question": "In Quick Sort, what is the role of the pivot element?",
       "answers": {
         "a": "It stores the final sorted array",
-        "b": "It divides the array into two subarrays based on comparison",
-        "c": "It determines the size of the input array",
-        "d": "It is always the smallest element"
+        "b": "It determines the size of the input array",
+        "c": "It is always the smallest element",
+        "d": "It divides the array into two subarrays based on comparison"
       },
       "explanations": {
-        "a": "The pivot does not store the sorted array.",
-        "b": "The pivot partitions the array into elements smaller and larger than itself.",
-        "c": "Array size is independent of the pivot.",
-        "d": "The pivot can be any element depending on selection strategy."
+        "a": "Pivot does not store the sorted array.",
+        "b": "Array size is unrelated.",
+        "c": "Pivot is not always the smallest.",
+        "d": "Correct — pivot partitions the array."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]

@@ -4,18 +4,18 @@
     {
       "question": "Which of the following sorting algorithms always divides the array into two equal halves?",
       "answers": {
-        "a": "Quick Sort",
-        "b": "Merge Sort",
+        "a": "Merge Sort",
+        "b": "Quick Sort",
         "c": "Bubble Sort",
         "d": "Insertion Sort"
       },
       "explanations": {
-        "a": "Quick Sort division depends on pivot selection and may be unbalanced.",
-        "b": "Merge Sort always splits the array into two equal or nearly equal halves.",
+        "a": "Merge Sort always splits the array into two equal or nearly equal halves.",
+        "b": "Quick Sort division depends on pivot selection and may be unbalanced.",
         "c": "Bubble Sort does not divide the array.",
         "d": "Insertion Sort processes elements sequentially."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
@@ -30,7 +30,7 @@
         "a": "Division continues beyond two elements.",
         "b": "Merge Sort does not stop at three elements.",
         "c": "A single element is considered already sorted.",
-        "d": "Subarrays never contain zero elements."
+        "d": "Subarrays do not normally represent zero elements in standard explanation."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -47,7 +47,7 @@
         "a": "The second element is not part of the Median-of-Three method.",
         "b": "Median of first, middle, and last helps avoid worst-case partitions.",
         "c": "The algorithm does not choose three middle elements.",
-        "d": "Median-of-Three is deterministic, not random."
+        "d": "Random selection is a different strategy."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -56,21 +56,21 @@
       "question": "Why does the Median of Three technique improve Quick Sort performance?",
       "answers": {
         "a": "It reduces recursion depth",
-        "b": "It avoids selecting extreme pivot values",
-        "c": "It eliminates swapping",
-        "d": "It removes recursion"
+        "b": "It eliminates swapping",
+        "c": "It removes recursion",
+        "d": "It avoids selecting extreme pivot values"
       },
       "explanations": {
-        "a": "Reduced recursion depth is a result, not the main goal.",
-        "b": "Balanced pivot selection prevents highly unbalanced partitions.",
-        "c": "Swapping is still required in Quick Sort.",
-        "d": "Quick Sort always uses recursion."
+        "a": "Reduced recursion depth is a result, not the main reason.",
+        "b": "Swapping is still required.",
+        "c": "Quick Sort still uses recursion.",
+        "d": "Balanced pivot selection avoids worst-case partitions."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "In the Median-of-Three technique, once arr[left] ≤ arr[center] ≤ arr[right] is ensured, where is the median element usually moved in the array?",
+      "question": "In the Median-of-Three technique, once arr[left] ≤ arr[center] ≤ arr[right] is ensured, where is the median element usually moved?",
       "answers": {
         "a": "At the first index (left)",
         "b": "At the middle index",
@@ -78,10 +78,10 @@
         "d": "At the last index (right)"
       },
       "explanations": {
-        "a": "The first index is not used as the pivot position.",
-        "b": "The median is not kept in the middle for partitioning.",
-        "c": "The median is moved to right − 1 to act as the pivot during partitioning.",
-        "d": "The last index is reserved as a boundary element."
+        "a": "Left is not used as pivot location.",
+        "b": "Median is not kept at center during partitioning.",
+        "c": "Median is moved to right − 1 for partitioning.",
+        "d": "Last index is typically used as a boundary."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
