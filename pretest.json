@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following scenarios best represents the advantage of Divide and Conquer algorithms like Merge Sort or Quick Sort?",
+      "answers": {
+        "a": "When the dataset is very small",
+        "b": "When only one comparison is needed",
+        "c": "When recursion is not allowed",
+        "d": "When problems can be broken into independent smaller parts"
+      },
+      "explanations": {
+        "a": "Divide and Conquer is not specifically for small datasets.",
+        "b": "Multiple comparisons are involved.",
+        "c": "Recursion is essential for Divide and Conquer.",
+        "d": "Correct — it works best when problems can be divided into smaller independent sub-problems."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary reason for using sorting algorithms in computer science?",
+      "answers": {
+        "a": "To reduce memory usage",
+        "b": "To organize data for efficient searching and processing",
+        "c": "To improve data security",
+        "d": "To increase program length"
+      },
+      "explanations": {
+        "a": "Sorting does not primarily reduce memory usage.",
+        "b": "Correct — sorted data improves searching and processing efficiency.",
+        "c": "Sorting does not directly improve security.",
+        "d": "Program length is unrelated."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the time complexity of Merge Sort in the worst case?",
+      "answers": {
+        "a": "O(n)",
+        "b": "O(n²)",
+        "c": "O(n log n)",
+        "d": "O(log n)"
+      },
+      "explanations": {
+        "a": "Linear time is not sufficient.",
+        "b": "Quadratic time applies to simpler sorts.",
+        "c": "Correct — Merge Sort runs in O(n log n).",
+        "d": "Logarithmic time alone is insufficient."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    { 
+      "question": "Which of the following best describes the divide and conquer technique?",
+      "answers": {
+        "a": "Dividing a problem into smaller sub-problems, solving them, and combining the results",
+        "b": "Solving a problem iteratively using loops",
+        "c": "Sorting elements by comparing adjacent values",
+        "d": "Solving a problem by trying all possible solutions"
+      },
+      "explanations": {
+        "a": "Correct — divide and conquer splits, solves, and combines results.",
+        "b": "This is an iterative approach.",
+        "c": "This describes bubble sort.",
+        "d": "This is brute force."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Quick Sort, what is the role of the pivot element?",
+      "answers": {
+        "a": "It stores the final sorted array",
+        "b": "It determines the size of the input array",
+        "c": "It is always the smallest element",
+        "d": "It divides the array into two subarrays based on comparison"
+      },
+      "explanations": {
+        "a": "Pivot does not store the sorted array.",
+        "b": "Array size is unrelated.",
+        "c": "Pivot is not always the smallest.",
+        "d": "Correct — pivot partitions the array."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
